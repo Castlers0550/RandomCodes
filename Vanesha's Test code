@@ -231,7 +231,7 @@ void INIT_BluetoothGamepad_PairMode() {  // Setup the Bluepad32 callbacks
 ////////////////////////////////////////////////////////////////////////////////////////////
 //                            Input voltage / Battery monitor                             //
 ////////////////////////////////////////////////////////////////////////////////////////////
-float Low_Batt_Scaler = 0.1;
+float Low_Batt_Scaler = 1.0;
 unsigned long TriggerTime = 0;
 bool Scaler_StepState = 0;
 unsigned long Check_Period_TriggerTime = 0;
